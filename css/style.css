@@ -1,0 +1,605 @@
+@import "reset.css";
+.app {
+  width: 100%;
+  height: 100%;
+  background: none;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  left: 0;
+}
+.app .QH div {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.app .QH .one {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .one header {
+  width: 100%;
+  height: 4.5rem;
+  background: #1a83d4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .one header .it {
+  -webkit-box-flex: 1;
+  padding: 1rem;
+}
+.app .QH .one header .it input {
+  width: 100%;
+  height: 2.5rem;
+  background: #328ed9;
+  border: none;
+  color: #FFFFFF;
+  outline: none;
+}
+.app .QH .one header .xinxi {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #1a83d4;
+  text-align: center;
+}
+.app .QH .one header .xinxi img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 1rem;
+}
+.app .QH .one section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .one section .saoyisao {
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #f4f4f4;
+  width: 100%;
+  height: auto;
+  background: #1a83d4;
+  padding-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .one section .saoyisao dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #c3e9f6;
+}
+.app .QH .one section .saoyisao dl dd {
+  line-height: 2.6rem;
+}
+.app .QH .one section .saoyisao dl img {
+  width: auto;
+  height: 3rem;
+  background: #1a83d4;
+}
+.app .QH .one section .min_poh {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  border-bottom: solid 1rem #f4f4f4;
+}
+.app .QH .one section .min_poh .min_poh_dl {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .one section .min_poh .min_poh_dl dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  color: #acc1d4;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: solid 1px #f4f4f4;
+}
+.app .QH .one section .min_poh .min_poh_dl dl dt {
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  line-height: 3rem;
+}
+.app .QH .one section .min_poh .min_poh_dl dl dt img {
+  width: 2.3rem;
+  height: auto;
+  background: #ffffff;
+}
+.app .QH .one section .min_poh .min_poh_dl dl dd {
+  line-height: 2rem;
+}
+.app .QH .one section .shenghuo {
+  padding: 2rem 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: solid 1rem #f4f4f4;
+}
+.app .QH .one section .shenghuo .pot {
+  -webkit-box-flex: 1;
+  color: #b9bec1;
+  margin-left: 1rem;
+}
+.app .QH .one section .shenghuo .pot img {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.app .QH .one section .shenghuo .pot1 {
+  width: 5rem;
+}
+.app .QH .one section .last {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: solid 0.8rem #f4f4f4;
+}
+.app .QH .one section .last .mayihua {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+  position: relative;
+}
+.app .QH .one section .last .mayihua dl {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.app .QH .one section .last .mayihua dl dd {
+  margin-left: 1rem;
+}
+.app .QH .one section .last .mayihua dl dd .timer {
+  color: #afb4b7;
+}
+.app .QH .one section .last .mayihua span {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: none;
+  border: 2px solid #d5d9e5;
+  display: inline-block;
+  transform: rotateZ(45deg);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-left: none;
+  border-top: none;
+}
+.app .QH .one section .last .num {
+  font-size: 2.6rem;
+  text-align: center;
+}
+.app .QH .one section .last .shouyi {
+  text-align: center;
+  color: #afb4b7;
+}
+.app .QH .one section .last .zhuanru {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+  border-top: solid 1px #f4f4f4;
+}
+.app .QH .one section .last .zhuanru span {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 3rem;
+}
+.app .QH .two {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .two header {
+  width: 100%;
+  height: 4.5rem;
+  background: #1a83d4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .two header .city {
+  width: 7rem;
+  height: 4.5rem;
+  background: #1a83d4;
+  color: #FFFFFF;
+  line-height: 4.5rem;
+  text-align: center;
+}
+.app .QH .two header .city span {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #1a83d4;
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  transform: rotateZ(45deg);
+  border-left: none;
+  border-top: none;
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+.app .QH .two header .it {
+  -webkit-box-flex: 1;
+  padding: 1rem;
+}
+.app .QH .two header .it input {
+  width: 100%;
+  height: 2.5rem;
+  background: #328ed9;
+  border: none;
+  color: #FFFFFF;
+  outline: none;
+}
+.app .QH .two header .xinxi {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #1a83d4;
+  text-align: center;
+}
+.app .QH .two header .xinxi img {
+  width: auto;
+  height: 2.6rem;
+  background: none;
+  margin-top: 1rem;
+}
+.app .QH .two section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  padding: 0 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .two section .banner {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.app .QH .two section .banner img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.app .QH .two section .min_poh {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #f4f4f4;
+}
+.app .QH .two section .min_poh .min_poh_dl {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .two section .min_poh .min_poh_dl dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 1rem;
+  color: #acc1d4;
+}
+.app .QH .two section .min_poh .min_poh_dl dl img {
+  width: 4rem;
+  height: auto;
+  background: #ffffff;
+}
+.app .QH .two section .TeJia {
+  width: 100%;
+  height: 6rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.app .QH .two section .TeJia .You {
+  width: 35%;
+  height: 4rem;
+  background: none;
+  border-right: solid 1px #f4f4f4;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-height: 2rem;
+}
+.app .QH .two section .TeJia .You p {
+  border-top: 1px solid #f9b4bb;
+}
+.app .QH .two section .TeJia .You p img {
+  vertical-align: middle;
+  width: 1ren;
+  height: auto;
+  background: none;
+  margin-right: 1rem;
+}
+.app .QH .two section .TeJia .New {
+  width: 65%;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+}
+.app .QH .two section .TeJia .New span {
+  color: #e23e41;
+}
+.app .QH .two section .renqi {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-top: 1rem solid #f4f4f4;
+  border-bottom: 1rem solid #f4f4f4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .two section .renqi h3 {
+  line-height: 2rem;
+  text-align: center;
+}
+.app .QH .two section .renqi h3 img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  margin-top: 1rem;
+}
+.app .QH .two section .renqi h3 p {
+  color: #bababa;
+}
+.app .QH .two section .renqi .tu {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app .QH .two section .renqi .tu div {
+  -webkit-box-flex: 1;
+  padding: 0.5rem;
+}
+.app .QH .two section .renqi .tu div img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.app .QH .three {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .three header {
+  width: 100%;
+  height: 4.5rem;
+  background: #1a83d4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.app .QH .three header h2 {
+  text-align: center;
+  -webkit-box-flex: 1;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 4.5rem;
+}
+.app .QH .three header .xinxi {
+  width: 7rem;
+  height: 4.5rem;
+  background: #1a83d4;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.app .QH .three header .xinxi img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.app .QH .three section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.app .QH .three section dl {
+  width: 100%;
+  height: 67px;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e3e3e3;
+}
+.app .QH .three section dl dd {
+  padding-top: 1rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+.app .QH .three section dl dd p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.app .QH .three section dl dd p span {
+  font-size: 1.2rem;
+  float: right;
+  color: #929292;
+  display: block;
+  padding-right: 10px;
+}
+.app .QH .three section dl dd h4 {
+  color: #929292;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+.app .QH .three section dl dt {
+  padding: 8px 8px 0 10px;
+  box-sizing: border-box;
+}
+.app .QH .three section dl img {
+  width: auto;
+  height: 50px;
+  background: 0;
+}
+.app .QH .fore {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .fore header {
+  width: 100%;
+  height: 4.5rem;
+  background: #1a83d4;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.app .QH .fore header h2 {
+  text-align: center;
+  -webkit-box-flex: 1;
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 4.5rem;
+}
+.app .QH .fore header .xinxi {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #1a83d4;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.app .QH .fore header .xinxi img {
+  width: auto;
+  height: 2rem;
+  background: none;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+}
+.app .QH .fore section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.app .QH .fore section .my dl {
+  width: 100%;
+  height: 6.3rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1rem solid #e3e3e3;
+}
+.app .QH .fore section .my dl dd {
+  padding-top: 1rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+.app .QH .fore section .my dl dd p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.app .QH .fore section .my dl dd p span {
+  float: right;
+  display: block;
+  padding-right: 10px;
+}
+.app .QH .fore section .my dl dd p span img:last-child {
+  width: auto;
+  height: 1.2rem;
+  background: none;
+}
+.app .QH .fore section .my dl dd h4 {
+  color: #929292;
+  line-height: 2rem;
+  box-sizing: border-box;
+}
+.app .QH .fore section .my dl dt {
+  padding: 8px 8px 0 10px;
+  box-sizing: border-box;
+}
+.app .QH .fore section .my dl dt img {
+  width: auto;
+  height: 5rem;
+  background: 0;
+}
+.app .QH .fore section .zhangdan dl {
+  width: 100%;
+  height: 3rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #e3e3e3;
+}
+.app .QH .fore section .zhangdan dl dd {
+  padding-top: 1rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+.app .QH .fore section .zhangdan dl dd p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.app .QH .fore section .zhangdan dl dd p span {
+  float: right;
+  display: block;
+  padding-right: 10px;
+}
+.app .QH .fore section .zhangdan dl dd p span img {
+  width: auto;
+  height: 1.2rem;
+  background: none;
+  vertical-align: middle;
+}
+.app .QH .fore section .zhangdan dl dt {
+  padding: 8px 8px 0 10px;
+  box-sizing: border-box;
+}
+.app .QH .fore section .zhangdan dl dt img {
+  width: auto;
+  height: 2rem;
+  background: 0;
+}
+.app footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-top: 2px solid #d8d8d8;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.app footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 1rem;
+  color: #acc1d4;
+}
+.app footer .active {
+  color: #28a1fa;
+}
